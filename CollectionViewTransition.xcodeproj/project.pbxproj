@@ -15,6 +15,7 @@
 		C51E72BF26D175B4007F9A8D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E72BE26D175B4007F9A8D /* BaseNavigationController.swift */; };
 		C51E72C126D17603007F9A8D /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E72C026D17603007F9A8D /* BaseCollectionViewController.swift */; };
 		C51E72C326D17681007F9A8D /* NextCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E72C226D17680007F9A8D /* NextCollectionViewController.swift */; };
+		C51E72C726D17EE7007F9A8D /* APLTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51E72C626D17EE7007F9A8D /* APLTransitionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C51E72BE26D175B4007F9A8D /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		C51E72C026D17603007F9A8D /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
 		C51E72C226D17680007F9A8D /* NextCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextCollectionViewController.swift; sourceTree = "<group>"; };
+		C51E72C626D17EE7007F9A8D /* APLTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APLTransitionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				C51E72BE26D175B4007F9A8D /* BaseNavigationController.swift */,
 				C51E72C026D17603007F9A8D /* BaseCollectionViewController.swift */,
 				C51E72C226D17680007F9A8D /* NextCollectionViewController.swift */,
+				C51E72C626D17EE7007F9A8D /* APLTransitionController.swift */,
 				C51E72B026D17563007F9A8D /* Main.storyboard */,
 				C51E72B326D17564007F9A8D /* Assets.xcassets */,
 				C51E72B526D17564007F9A8D /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				C51E72AB26D17563007F9A8D /* AppDelegate.swift in Sources */,
 				C51E72C126D17603007F9A8D /* BaseCollectionViewController.swift in Sources */,
+				C51E72C726D17EE7007F9A8D /* APLTransitionController.swift in Sources */,
 				C51E72C326D17681007F9A8D /* NextCollectionViewController.swift in Sources */,
 				C51E72AD26D17563007F9A8D /* SceneDelegate.swift in Sources */,
 				C51E72BF26D175B4007F9A8D /* BaseNavigationController.swift in Sources */,

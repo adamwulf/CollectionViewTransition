@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NextCollectionViewController: UICollectionViewController {
+class NextCollectionViewController: BasicCollectionViewController {
 
     init() {
         let flowLayout = UICollectionViewFlowLayout()
@@ -29,10 +29,16 @@ class NextCollectionViewController: UICollectionViewController {
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "UICollectionViewCell")
     }
 
+    override func collectionView(_ collectionView: UICollectionView,
+                                 transitionLayoutForOldLayout fromLayout: UICollectionViewLayout,
+                                 newLayout toLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
+        return UICollectionViewTransitionLayout(currentLayout: fromLayout, nextLayout: toLayout)
+    }
+
     // MARK: - UICollectionViewDataSource
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return 30
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
